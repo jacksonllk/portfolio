@@ -14,7 +14,6 @@ export const DATA = {
   ogImage: "/og-image.png",
   skills: [
     "Next.js",
-    "Node.js",
     "Python",
     "Tailwind",
     "MongoDB",
@@ -103,7 +102,7 @@ export const DATA = {
       dates: "Oct 2023 - Present (Founder)",
       active: true,
       description:
-        "A platform that aggregates Malaysian tenders for contractors.",
+        "Malaysian public and private sector tenders aggregation and monitoring platform for companies.",
       technologies: [
         "Next.js",
         "Python",
@@ -111,7 +110,6 @@ export const DATA = {
         "Tailwind",
         "Shadcn UI",
         "Daisy UI",
-        "Stripe",
       ],
       links: [
         {
@@ -125,19 +123,66 @@ export const DATA = {
         "",
     },
     {
+      title: "Pengadaanpro.com",
+      href: "https://www.pengadaanpro.com",
+      dates: "June 2025 - Present (Founder)",
+      active: true,
+      description:
+        "Indonesian tenders aggregation and monitoring platform for companies bidding for government jobs.",
+      technologies: [
+        "Next.js",
+        "Python",
+        "Supabase",
+        "Tailwind",
+        "Shadcn UI",
+        "Daisy UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.pengadaanpro.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/pengadaanpro-og-image.png",
+      video:
+        "",
+    },
+    {
+      title: "PitchPower.ai",
+      href: "https://www.pitchpower.ai",
+      dates: "September 2025 - Present",
+      active: true,
+      description:
+        "The AI workflow tool for agencies and professional services firms to build proposals in minutes.",
+      technologies: [
+        "Next.js",
+        "OpenAI",
+        "Firebase",
+        "Tailwind",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.pitchpower.ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/pitchpower-og-image.png",
+      video:
+        "",
+    },
+    {
       title: "Writemore.io",
       href: "https://www.writemore.io",
-      dates: "July 2024 - Present (Co-Building)",
+      dates: "July 2024 - Present",
       active: true,
       description:
         "A webapp that builds consistent writing habits",
       technologies: [
         "Next.js",
-        "Typescript",
         "Firebase",
         "Tailwind",
-        "Shadcn UI",
-        "Stripe",
       ],
       links: [
         {
