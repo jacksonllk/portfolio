@@ -10,8 +10,8 @@ export const DATA = {
     "Self-taught programmer. I love building things and sharing about it on X.",
   summary:
     "One day mid 2022, I decided to pick up programming and self-learn it with online courses and YouTube. I befriended other programmers on X who helped me along the way. I launched my first product in October 2023, and have been building and learning ever since. Feel free to reach out!",
-  avatarUrl: "/me.png",
-  ogImage: "/og-image.png",
+  avatarUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/me.png",
+  ogImage: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/og-image.png",
   skills: [
     "Next.js",
     "Python",
@@ -46,7 +46,7 @@ export const DATA = {
       badges: [],
       location: "Malaysia",
       title: "Director",
-      logoUrl: "/emcorlogo.png",
+      logoUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/emcorlogo.png",
       start: "October 2011",
       end: "Current",
       description:
@@ -58,7 +58,7 @@ export const DATA = {
       href: "",
       location: "Malaysia",
       title: "Director",
-      logoUrl: "/grandeelogo.png",
+      logoUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/grandeelogo.png",
       start: "January 2008",
       end: "Current",
       description:
@@ -82,7 +82,7 @@ export const DATA = {
       school: "Curtin University of Technology (Perth, WA)",
       href: "https://www.curtin.edu.au/",
       degree: "Bachelor of Commerce (Accounting)",
-      logoUrl: "/curtinlogo.png",
+      logoUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/curtinlogo.png",
       start: "2004",
       end: "2006",
     },
@@ -90,7 +90,7 @@ export const DATA = {
       school: "Canning College",
       href: "https://canningcollege.wa.edu.au/",
       degree: "Western Australian Universities’ Foundation Program",
-      logoUrl: "/canningcollegelogo.webp",
+      logoUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/canningcollegelogo.webp",
       start: "2003",
       end: "2004",
     },
@@ -118,7 +118,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/tenderpanel-og-image.png",
+      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/tenderpanel-og-image.png",
       video:
         "",
     },
@@ -144,7 +144,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/pengadaanpro-og-image.png",
+      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/pengadaanpro-og-image.png",
       video:
         "",
     },
@@ -168,7 +168,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/pitchpower-og-image.png",
+      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/pitchpower-og-image.png",
       video:
         "",
     },
@@ -191,7 +191,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/writemore-og-image-ph.png",
+      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/writemore-og-image-ph.png",
       video:
         "",
     },
