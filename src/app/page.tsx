@@ -42,7 +42,7 @@ export default function Page() {
                 Check out my latest work
               </h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Saas products that I have launched and co-building.
+                Saas products that I have launched.
               </p>
             </div>
           </div>
@@ -117,15 +117,16 @@ export default function Page() {
               Get in Touch
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Want to chat? Send me a message{" "}
+              Send me a{" "}
               <Link
                 href={DATA.contact.social.X.url}
                 className="text-blue-500 hover:underline"
               >
-                on X (formerly Twitter)
+                message on X
               </Link>{" "}
-              and I will respond whenever I can. Will not entertain any soliciting.
+              and I will respond whenever I can. 
             </p>
+            <p className="text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-base/relaxed">Will not entertain any soliciting.</p>
           </div>
         </div>
       </section>

@@ -7,9 +7,9 @@ export const DATA = {
   location: "Kuching, MY",
   locationLink: "https://www.google.com/maps/place/kuching",
   description:
-    "Self-taught programmer. I love building things and sharing about it on X.",
+    "Self-taught programmer. I build online products and share about it on X.",
   summary:
-    "One day mid 2022, I decided to pick up programming and self-learn it with online courses and YouTube. I befriended other programmers on X who helped me along the way. I launched my first product in October 2023, and have been building and learning ever since. Feel free to reach out!",
+    "One day mid 2022, I decided to pick up programming and self-learn it with online courses and YouTube videos. I launched my first Saas product in October 2023, and have been building and learning ever since. Feel free to reach out through any of my socials!",
   avatarUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/me.png",
   ogImage: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/og-image.png",
   skills: [
@@ -118,7 +118,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/tenderpanel-og-image.png",
+      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/tenderpanel-portfolio.webp",
       video:
         "",
     },
@@ -144,7 +144,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/pengadaanpro-og-image.png",
+      image: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/pengadaanpro-portfolio.webp",
       video:
         "",
     },
@@ -159,6 +159,8 @@ export const DATA = {
         "Next.js",
         "OpenAI",
         "Firebase",
+        "Pinecone",
+        "Helicone",
         "Tailwind",
       ],
       links: [
