@@ -8,7 +8,7 @@ import Markdown from "react-markdown";
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-8">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -32,13 +32,13 @@ export default function Page() {
         </Markdown>
       </section>
       <section id="projects" className="w-screen relative left-1/2 right-1/2 -translate-x-1/2">
-        <div className="space-y-12 w-full py-12 px-6 sm:px-12 lg:px-24">
+        <div className="space-y-12 w-full py-8 px-6 sm:px-12 lg:px-24">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-2xl mx-auto">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 My Products
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              <h2 className="text-2xl font-bold tracking-tighter sm:text-4xl">
                 Check out my latest work
               </h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -113,7 +113,7 @@ export default function Page() {
             <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
               Contact
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+            <h2 className="text-2xl font-bold tracking-tighter sm:text-4xl">
               Get in Touch
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -126,7 +126,7 @@ export default function Page() {
               </Link>{" "}
               and I will respond whenever I can. 
             </p>
-            <p className="text-muted-foreground md:text-sm/relaxed lg:text-base/relaxed xl:text-base/relaxed">Will not entertain any soliciting.</p>
+            <p className="text-muted-foreground text-base/relaxed">Will not entertain any soliciting.</p>
           </div>
         </div>
       </section>
