@@ -31,9 +31,9 @@ export default function Page() {
           {DATA.summary}
         </Markdown>
       </section>
-      <section id="projects">
-        <div className="space-y-12 w-full py-12">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+      <section id="projects" className="w-screen relative left-1/2 right-1/2 -translate-x-1/2">
+        <div className="space-y-12 w-full py-12 px-6 sm:px-12 lg:px-24">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-2xl mx-auto">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 My Products
@@ -46,7 +46,7 @@ export default function Page() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-1 max-w-[800px] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[1800px] mx-auto">
             {DATA.projects.map((project) => (
               <ProjectCard
                 href={project.href}
