@@ -79,7 +79,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Curtin University of Technology (Perth, WA)",
+      school: "Curtin University of Technology (Perth, Western Australia)",
       href: "https://www.curtin.edu.au/",
       degree: "Bachelor of Commerce (Accounting)",
       logoUrl: "https://pub-5da5d5ffdbab4cce8e6acae8ff548f74.r2.dev/curtinlogo.png",
